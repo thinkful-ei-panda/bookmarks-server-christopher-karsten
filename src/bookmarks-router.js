@@ -1,4 +1,4 @@
-const { isWebUri } = require('valid-url')
+const { isWebUri } = require('valid-url');
 const express = require('express');
 const { v4: uuid } = require('uuid');
 const logger = require('./logger');
